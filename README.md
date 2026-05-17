@@ -1,12 +1,16 @@
-# Landscape-Architect
+﻿# Landscape-Architect
 
-Portfolio professionnel pour un studio d'architecture paysagère. Ce site présente un design moderne et minimaliste, des pages de présentation, des réalisations et un formulaire de contact.
+Refonte du portfolio dans le dépôt Architect landscape avec un design plus soft et plus léger.
 
-## Structure
+## Contenu
+- index.html — page d'accueil avec présentation, réalisations et compétences
+- projets.html — page des projets avec galerie de réalisations
+- bout.html — page à propos avec profil et compétences
+- contact.html — page de contact avec formulaire et coordonnées
+- css/style.css — styles doux et épurés
+- js/script.js — menu mobile
+- images/ — images importées depuis l'ancien portfolio
+- docs/Noah-Jean-Louis-CV.pdf — CV importé depuis l'ancien projet
 
-- `index.html` — page d'accueil
-- `projets.html` — page des projets
-- `about.html` — page à propos
-- `contact.html` — page de contact
-- `css/style.css` — styles globaux
-- `js/script.js` — menu mobile et interactions légères
+## Notes
+Le design a été repensé en version claire et légère tout en intégrant du contenu et des éléments visuels de l'ancien projet.

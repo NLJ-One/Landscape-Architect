@@ -1,16 +1,19 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Architect Landscape</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="logo">Architect Landscape</div>
     <nav class="nav">
-      <button class="nav-toggle" aria-label="Ouvrir le menu">Menu</button>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Accueil</a></li>
         <li><a href="projets.html">Projets</a></li>
@@ -21,40 +24,41 @@
   </header>
 
   <main>
-    <section class="page-hero page-hero-dark">
+    <section class="page-hero page-hero-light">
       <div>
         <span class="eyebrow">Contact</span>
-        <h1>Rendez-nous votre projet visible</h1>
-        <p>Partagez votre idée, site ou cahier des charges. Nous construisons un concept paysager qui répond à vos ambitions.</p>
+        <h1>Discutons de votre projet paysager</h1>
+        <p>Envoyez-nous vos idées, sites et envies pour que nous construisions une proposition esthétique et durable.</p>
       </div>
     </section>
 
     <section class="section section-contact">
-      <div class="contact-details glass-panel">
+      <div class="contact-details soft-card">
         <span class="section-label">Coordonnées</span>
-        <h2>Parlez-nous de votre projet</h2>
-        <p>Email : <a href="mailto:contact@architect-landscape.fr">contact@architect-landscape.fr</a></p>
-        <p>Téléphone : +33 6 12 34 56 78</p>
+        <h2>Contactez-nous</h2>
+        <p>Email : <a href="mailto:noahbusinessproject.jl@gmail.com">noahbusinessproject.jl@gmail.com</a></p>
+        <p>Téléphone : <a href="tel:+33674363590">06 74 36 35 90</a></p>
         <p>Localisation : Paris, France</p>
+        <a class="btn btn-primary" href="docs/Noah-Jean-Louis-CV.pdf" download>Télécharger le CV</a>
       </div>
-      <form class="contact-form">
+      <form class="contact-form soft-card" action="https://formspree.io/f/xzzelogn" method="POST">
         <label>Nom
-          <input type="text" placeholder="Votre nom" />
+          <input type="text" name="name" required placeholder="Votre nom" />
         </label>
         <label>Email
-          <input type="email" placeholder="Votre email" />
+          <input type="email" name="email" required placeholder="Votre email" />
         </label>
         <label>Projet
-          <textarea rows="5" placeholder="Décrivez votre projet"></textarea>
+          <textarea name="message" rows="5" required placeholder="Décrivez votre projet"></textarea>
         </label>
-        <button type="submit" class="btn btn-primary">Envoyer</button>
+        <button type="submit" class="btn btn-secondary">Envoyer</button>
       </form>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Architect Landscape — Contact et demandes de brief.</p>
-    <p><a href="mailto:contact@architect-landscape.fr">contact@architect-landscape.fr</a></p>
+    <p>Architect Landscape — Contact.</p>
+    <p><a href="mailto:noahbusinessproject.jl@gmail.com">noahbusinessproject.jl@gmail.com</a></p>
   </footer>
 
   <script src="js/script.js"></script>
