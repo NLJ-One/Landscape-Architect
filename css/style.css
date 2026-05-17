@@ -195,8 +195,8 @@ main {
 }
 
 .btn-secondary {
-  background: rgba(122, 159, 139, 0.12);
-  border: 1px solid rgba(122, 159, 139, 0.24);
+  background: rgba(122, 159, 139, 0.20);
+  border: 1px solid rgba(122, 159, 139, 0.36);
   color: var(--text);
 }
 
@@ -460,7 +460,7 @@ hr {
   }
 
   .hero {
-    min-height: auto;
+    min-height: 0;
   }
 
   main {
