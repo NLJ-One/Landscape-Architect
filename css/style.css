@@ -1,17 +1,17 @@
 ﻿:root {
   color-scheme: light;
-  --bg: #f6f4ef;
+  --bg: #f5f4ef;
   --surface: #ffffff;
-  --surface-soft: rgba(255, 255, 255, 0.9);
+  --surface-soft: rgba(255, 255, 255, 0.96);
   --text: #1f2129;
-  --muted: #6f737d;
+  --muted: #767d86;
   --accent: #7a9f8b;
-  --accent-soft: #e7f1ea;
+  --accent-soft: #f0f4ed;
   --border: rgba(31, 33, 41, 0.08);
-  --shadow: 0 14px 45px rgba(42, 48, 63, 0.12);
-  --shadow-soft: 0 12px 32px rgba(38, 45, 62, 0.08);
-  --radius: 28px;
-  --radius-sm: 18px;
+  --shadow: 0 12px 30px rgba(42, 48, 63, 0.08);
+  --shadow-soft: 0 10px 22px rgba(38, 45, 62, 0.06);
+  --radius: 0;
+  --radius-sm: 0;
   font-family: 'Inter', system-ui, sans-serif;
 }
 
@@ -36,7 +36,7 @@ body {
 img {
   display: block;
   max-width: 100%;
-  border-radius: 22px;
+  border-radius: 0;
 }
 
 a {
@@ -87,8 +87,8 @@ button {
   display: none;
   padding: 0.75rem 1rem;
   background: rgba(255, 255, 255, 0.95);
-  border-radius: 999px;
-  box-shadow: var(--shadow-soft);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .nav-links {
@@ -177,7 +177,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 1rem 1.8rem;
-  border-radius: 999px;
+  border-radius: 0;
   transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
@@ -210,7 +210,7 @@ main {
   background: var(--surface);
   border: 1px solid var(--border);
   box-shadow: var(--shadow-soft);
-  border-radius: var(--radius);
+  border-radius: 0;
 }
 
 .hero-visual {
@@ -226,8 +226,8 @@ main {
 }
 
 .visual-card img {
-  border-radius: 24px;
-  box-shadow: var(--shadow-soft);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .visual-caption {
@@ -345,7 +345,7 @@ main {
   width: 100%;
   background: rgba(245, 244, 239, 0.92);
   border: 1px solid var(--border);
-  border-radius: 18px;
+  border-radius: 0;
   color: var(--text);
   padding: 1rem 1rem;
 }
